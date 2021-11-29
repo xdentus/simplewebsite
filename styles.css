@@ -1,0 +1,35 @@
+:root{
+    --color-neon: hsl(317 100% 54%);
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+body{
+    background-color: #411d84;
+}
+.text{
+    color: var(--color-neon);
+    font-size: 4rem;
+}
+.neon-button{
+    display: inline-block;
+    margin-top: 200px;
+    font-size: 4rem;
+    border: var(--color-neon) solid 0.1rem;
+    border-radius: 20px;
+    background: 0;
+    color: var(--color-neon);
+    padding: 15px;
+    box-shadow: 0 0 1em 0 var(--color-neon);
+    text-shadow: 0 0 0.5em var(--color-neon);
+    transition-duration: 500ms;
+}
+.neon-button:hover{
+    background: var(--color-neon);
+    color: #411d84;
+    transition-duration: 500ms;
+    box-shadow: 0 0 2em 0 var(--color-neon);
+}
