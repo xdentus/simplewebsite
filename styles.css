@@ -34,4 +34,6 @@ body{
     color: #411d84;
     transition-duration: 500ms;
     box-shadow: 0 0 2em 0 var(--color-neon);
+    width: 200px;
+    height: 200px;
 }
