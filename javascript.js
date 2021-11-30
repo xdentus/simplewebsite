@@ -1,6 +1,5 @@
 function ChangeToOne(){
-    b = a.toString() + 1;
-    document.getElementById("equation").innerHTML = b;
+    document.getElementById("equation").innerHTML = a.toString()+1;
 }
 function ChangeToTwo(){
     b = a.toString() + 2;
